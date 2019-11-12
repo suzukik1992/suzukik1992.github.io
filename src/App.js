@@ -1,20 +1,25 @@
 import React from 'react';
-import { Profile } from './profile';
-import { Border } from './border';
-import { Works } from './works';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { Home } from './home'; 
+import { WorkPages　} from './workPages'
 
+document.body.style = 'background: black;';
 
 export class App extends React.Component {
 
   render() {
     
     return(
-      <div>
-        <Profile />
-        <Border />
-        <Works />
-      </div>
+        <Router>
+        <div>
+          <Switch>
+            <Route exact path="/works/:work" component={WorkPages}></Route>
+            <Route path="" component={Home}></Route>
+          </Switch>
+        </div>
+        </Router>
     );
   }
 }
+
 

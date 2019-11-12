@@ -4,17 +4,16 @@ import { myColor } from './style';
 const biographyStyle = {
 
     float: 'right',
-    position: 'relative',
-    top: "17.5vw",
-    right: "0.5vw",
+    position: 'absolute',
+    top: "15vw",
+    right: "1vw",
     width: "32vw",
 
 };
 
 const biographyTextStyle = {
 
-    fontSize: "3.7vw",
-    fontWeight: 'bold',
+    fontSize: "3.5vw",
     fontFamily: 'Montserrat, sans-serif',
     textAlign: 'left',
     lineHeight: '1.35',
@@ -23,7 +22,7 @@ const biographyTextStyle = {
 };
 
 const biographyTextSpanStyle = {
-    backgroundColor: 'rgba(255, 255, 255, 0.4)'
+    backgroundColor: myColor.backgroundWhite
 }
 
 export class Biography extends React.Component {

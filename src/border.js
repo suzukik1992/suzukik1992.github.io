@@ -7,8 +7,8 @@ const borderStyle = {
     width: '100vw',
     margin: '0',
     padding: '0',
-    borderBottomColor: myColor.yellow,
-    borderBottomWidth: '0.4vw',
+    borderBottomColor: "black",
+    borderBottomWidth: '0vw',
     borderBottomStyle: 'solid'
 
 }

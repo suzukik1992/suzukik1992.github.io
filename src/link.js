@@ -4,19 +4,24 @@ import { TwitterIcon, YoutubeIcon, ShopIcon, MailIcon } from './svgLinkIcons';
 
 const ulStyle = {
 
-    position: 'relative',
-    left: '71vw',
-    top: '52.25vw',
+    position: "absolute",
+    right: "1.5vw",
+    top: '48vw',
+    width: '28vw',
+    height: '5vw',
     padding: '0',
     margin: '0',
-    width: '28vw'
 
 }
 
 const liStyle = {
 
     display: 'inline',
-    marginRight: '2vw'
+    height: '100%',
+    marginRight: '7vw',
+    marginTop: '0',
+    marginBottom: '0',
+    padding: '0'
 
 }
 
@@ -25,6 +30,8 @@ export class Link extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            width: "0",
+            height: "0",
             twitterColor: "white",
             youtubeColor: "white",
             shopColor: "white",
@@ -32,6 +39,28 @@ export class Link extends React.Component {
         }
         this.handleMouseEnter = this.handleMouseEnter.bind(this);
         this.handleMouseLeave = this.handleMouseLeave.bind(this);
+        this.updateDimentions = this.updateDimentions.bind(this);
+    }
+
+    updateDimentions() {
+        let windowWidth = window.innerWidth;
+        let windowHeight = window.innerHeight;
+        this.setState({
+            width: windowWidth,
+            height: windowHeight
+        })
+    }
+
+    componentWillMount() {
+        this.updateDimentions();
+    }
+
+    componentDidMount() {
+        window.onresize = this.updateDimentions;
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updateDimentions);
     }
 
     handleMouseEnter(e) {
@@ -39,7 +68,7 @@ export class Link extends React.Component {
         this.setState({
            [targetID]: myColor.yellow
         })
-        console.log("Enter:", targetID);
+        //console.log("Enter:", targetID);
     }
 
     handleMouseLeave(e) {
@@ -56,12 +85,12 @@ export class Link extends React.Component {
                 [targetID]: myColor.white
             })
         }
-        console.log("Leave:", targetID, e);
+        //console.log("Leave:", targetID, e);
     }
 
     render() {
 
-        let svgRatio = scale(window.innerWidth, [0, 1000], [0, 2]);
+        let svgRatio = scale(this.state.width, [0, 1000], [0, 1.85]);
         let svgScaleFormat = `scale(${svgRatio}, ${svgRatio})`;
 
         return(
