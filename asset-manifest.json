@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/suzuki-kentaro/static/css/main.1751e998.chunk.css",
-    "main.js": "/suzuki-kentaro/static/js/main.b52f50a3.chunk.js",
-    "main.js.map": "/suzuki-kentaro/static/js/main.b52f50a3.chunk.js.map",
+    "main.js": "/suzuki-kentaro/static/js/main.4f0bea08.chunk.js",
+    "main.js.map": "/suzuki-kentaro/static/js/main.4f0bea08.chunk.js.map",
     "runtime-main.js": "/suzuki-kentaro/static/js/runtime-main.bcd495fd.js",
     "runtime-main.js.map": "/suzuki-kentaro/static/js/runtime-main.bcd495fd.js.map",
-    "static/js/2.1ac02120.chunk.js": "/suzuki-kentaro/static/js/2.1ac02120.chunk.js",
-    "static/js/2.1ac02120.chunk.js.map": "/suzuki-kentaro/static/js/2.1ac02120.chunk.js.map",
+    "static/js/2.1db040af.chunk.js": "/suzuki-kentaro/static/js/2.1db040af.chunk.js",
+    "static/js/2.1db040af.chunk.js.map": "/suzuki-kentaro/static/js/2.1db040af.chunk.js.map",
     "index.html": "/suzuki-kentaro/index.html",
-    "precache-manifest.f9ed1f902ea05033bbba7bf131e50675.js": "/suzuki-kentaro/precache-manifest.f9ed1f902ea05033bbba7bf131e50675.js",
+    "precache-manifest.2a529fdedd53630d66eb68630a2b6013.js": "/suzuki-kentaro/precache-manifest.2a529fdedd53630d66eb68630a2b6013.js",
     "service-worker.js": "/suzuki-kentaro/service-worker.js",
     "static/css/main.1751e998.chunk.css.map": "/suzuki-kentaro/static/css/main.1751e998.chunk.css.map",
     "static/media/index.css": "/suzuki-kentaro/static/media/Montserrat-Thin.43dd5b7a.ttf",
@@ -31,14 +31,16 @@
     "static/media/monolith.jpg": "/suzuki-kentaro/static/media/monolith.253db0a8.jpg",
     "static/media/monsterHunterWorld.png": "/suzuki-kentaro/static/media/monsterHunterWorld.34deef02.png",
     "static/media/peace.jpg": "/suzuki-kentaro/static/media/peace.8238e475.jpg",
+    "static/media/peace_work_1.jpg": "/suzuki-kentaro/static/media/peace_work_1.b3e028c9.jpg",
+    "static/media/peace_work_2.jpg": "/suzuki-kentaro/static/media/peace_work_2.348cbfeb.jpg",
     "static/media/prosound_201906.jpg": "/suzuki-kentaro/static/media/prosound_201906.a553e69b.jpg",
     "static/media/sourceCord_002.jpg": "/suzuki-kentaro/static/media/sourceCord_002.2e8fb79c.jpg",
     "static/media/world.jpg": "/suzuki-kentaro/static/media/world.ecf770ac.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bcd495fd.js",
-    "static/js/2.1ac02120.chunk.js",
+    "static/js/2.1db040af.chunk.js",
     "static/css/main.1751e998.chunk.css",
-    "static/js/main.b52f50a3.chunk.js"
+    "static/js/main.4f0bea08.chunk.js"
   ]
 }
