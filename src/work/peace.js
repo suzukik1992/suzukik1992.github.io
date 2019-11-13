@@ -10,21 +10,18 @@ import {
     workYoutubeWrapStyle,
     workBlockquoteStyle,
     workQuoteStyle,
-    workQuoteLinkStyle
+    workQuoteLinkStyle,
+    workMainDivStyle
 } from '../style';
 import peaceImg from '../media/works/peace.jpg';
 import peaceWork1Img from '../media/works/peace_work_1.jpg';
 import peaceWork2Img from '../media/works/peace_work_2.jpg';
 
-const divStyle = {
-    width: "100vw"
-}
-
 export class Peace extends React.Component {
 
     render() {
         return(
-            <div style={divStyle}>
+            <div style={ workMainDivStyle}>
                 <img src={peaceImg} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:"4.2vw"}}>Peace can be Realized Even without Order</p>
                 <p style={workBiographyStyle}>2018/06, Sound Programer, MaxMsp</p>

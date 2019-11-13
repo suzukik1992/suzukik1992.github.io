@@ -6,20 +6,16 @@ import {
         workIntroductionStyle, 
         workLinkStyle, 
         workYoutubeStyle,
-        workYoutubeWrapStyle
+        workYoutubeWrapStyle,
+        workMainDivStyle
     } from '../style';
 import monsterHunterWorldImg from '../media/works/monsterHunterWorld.png';
-
-const divStyle = {
-    width: "100vw",
-
-}
 
 export class MonsterHunterWorld extends React.Component {
 
     render() {
         return(
-            <div style={divStyle}>
+            <div style={workMainDivStyle}>
                 <img src={monsterHunterWorldImg} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:"6vw"}}>MONSTER HUNTER WORLD</p>
                 <p style={workBiographyStyle}>2017/08, Sound Designer, Pro Tools, WWISE, Ableton Live, MaxMsp</p>

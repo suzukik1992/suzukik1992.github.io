@@ -10,21 +10,17 @@ import {
         workYoutubeWrapStyle,
         workBlockquoteStyle,
         workQuoteStyle,
-        workQuoteLinkStyle
+        workQuoteLinkStyle,
+        workMainDivStyle
     } from '../style';
 import ballNagoyaImg from '../media/works/ball_nagoya.jpg';
 import ballNagoyaWork1Img from '../media/works/ball_nagoya_work_1.jpg';
-
-const divStyle = {
-    width: "100vw",
-
-}
 
 export class BallNagoya extends React.Component {
 
     render() {
         return(
-            <div style={divStyle}>
+            <div style={workMainDivStyle}>
                 <img src={ballNagoyaImg} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:"3.8vw"}}>Floating, Resonating Spheres - Nagoya Castle</p>
                 <p style={workBiographyStyle}>2017/12, Sound Programer, MaxMsp, Pure Data, Raspberry Pi</p>

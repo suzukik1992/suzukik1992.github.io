@@ -9,12 +9,19 @@ export const myColor = {
     backgroundWhite: "rgba(255, 255, 255, 0.4)"
 }
 
+export const workMainDivStyle = {
+    width: "100vw",
+    position: "absolute",
+    top: "3vw"
+
+}
+
 export const workMainImgStyle = {
     display: "block",
     position: 'relative',
     width: "90%",
     objectFit: "cover",
-    margin: "auto"
+    margin: "auto",
 }
 
 export const workSubImgStyle = {
@@ -33,7 +40,6 @@ export const workTitleStyle = {
     width: "90%",
     fontFamily: 'Montserrat, sans-serif',
     position: "relative",
-    top: "2vw",
     left: "4.5vw",
     textAlign: 'left',
     color: "white"

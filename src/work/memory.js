@@ -1,27 +1,28 @@
 import React from 'react';
 import { 
-        workMainImgStyle,
-        workTitleStyle, 
-        workBiographyStyle, 
-        workIntroductionStyle,
-        workLinkStyle, 
-        workYoutubeStyle,
-        workYoutubeWrapStyle,
-        workBlockquoteStyle,
-        workQuoteStyle,
-        workQuoteLinkStyle
-    } from '../style';
+    workMainImgStyle,
+    workSubImgStyle,
+    workTitleStyle, 
+    workBiographyStyle, 
+    workIntroductionStyle,
+    workLinkStyle, 
+    workYoutubeStyle,
+    workYoutubeWrapStyle,
+    workBlockquoteStyle,
+    workQuoteStyle,
+    workQuoteLinkStyle,
+    workMainDivStyle
+} from '../style';
 import memoryImg from '../media/works/memory.jpg';
-
-const divStyle = {
-    width: "100vw"
-}
+import memoryWork1Img from '../media/works/memory_work_1.jpg';
+import memoryWork2Img from '../media/works/memory_work_2.jpg';
+import memoryWork3Img from '../media/works/memory_work_3.jpg';
 
 export class Memory extends React.Component {
 
     render() {
         return(
-            <div style={divStyle}>
+            <div style={workMainDivStyle}>
                 <img src={memoryImg} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:"6vw"}}>Memory of Topography</p>
                 <p style={workBiographyStyle}>2018/06, Sound Programer, MaxMsp</p>
@@ -35,6 +36,9 @@ export class Memory extends React.Component {
                 <div style={{...workYoutubeWrapStyle}}>
                     <iframe style={workYoutubeStyle} width="560" height="315" src="https://www.youtube.com/embed/qwOgblaqd-w" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
+                <img src={memoryWork1Img} style={{...workSubImgStyle, top:"15vw"}}></img>
+                <img src={memoryWork2Img} style={{...workSubImgStyle, top:"20vw"}}></img>
+                <img src={memoryWork3Img} style={{...workSubImgStyle, top:"20vw"}}></img>
             </div>
         );
     }

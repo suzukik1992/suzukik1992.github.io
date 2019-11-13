@@ -9,20 +9,16 @@ import {
         workYoutubeWrapStyle,
         workBlockquoteStyle,
         workQuoteStyle,
-        workQuoteLinkStyle
+        workQuoteLinkStyle,
+        workMainDivStyle
     } from '../style';
 import evessaImg from '../media/works/evessa.png';
-
-const divStyle = {
-    width: "100vw",
-
-}
 
 export class Evessa extends React.Component {
 
     render() {
         return(
-            <div style={divStyle}>
+            <div style={workMainDivStyle}>
                 <img src={evessaImg} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:"6vw"}}>Evessa × teamLab</p>
                 <p style={workBiographyStyle}>2017/09, Programer, Ableton Live, Max for Live, Resolume Arena</p>
