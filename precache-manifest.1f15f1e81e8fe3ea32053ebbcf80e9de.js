@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbb0e153903ae837f33527e266be4cdc",
+    "revision": "0c98575d1585b32d6310be389768098a",
     "url": "/suzuki-kentaro/index.html"
   },
   {
-    "revision": "1be733fcd7a5350dd69a",
+    "revision": "ab3ca9b301baba778a53",
     "url": "/suzuki-kentaro/static/css/main.1751e998.chunk.css"
   },
   {
-    "revision": "b6cceac56ea6fcf7fef0",
-    "url": "/suzuki-kentaro/static/js/2.d2ab2995.chunk.js"
+    "revision": "8511386aa31b33d94446",
+    "url": "/suzuki-kentaro/static/js/2.f69e1b94.chunk.js"
   },
   {
-    "revision": "1be733fcd7a5350dd69a",
-    "url": "/suzuki-kentaro/static/js/main.3cba7a51.chunk.js"
+    "revision": "ab3ca9b301baba778a53",
+    "url": "/suzuki-kentaro/static/js/main.8dd3364b.chunk.js"
   },
   {
     "revision": "0a48a2e886b1d8260321",
@@ -60,12 +60,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/suzuki-kentaro/static/media/bouldering.105dd115.jpg"
   },
   {
+    "revision": "47df5edf90d0ab07ba2d35f8760818f6",
+    "url": "/suzuki-kentaro/static/media/bouldering_work_1.47df5edf.jpg"
+  },
+  {
+    "revision": "d1e6f20e78cefea80c64cd60fa79cb5d",
+    "url": "/suzuki-kentaro/static/media/bouldering_work_2.d1e6f20e.jpg"
+  },
+  {
     "revision": "4e4b9d7f18f185d98277ab7cf9e055fb",
     "url": "/suzuki-kentaro/static/media/cristalUniverse.4e4b9d7f.jpg"
   },
   {
+    "revision": "287e73feabf53211cc81fcd5c39499a3",
+    "url": "/suzuki-kentaro/static/media/cristalUniverse_work_1.287e73fe.jpg"
+  },
+  {
+    "revision": "cff59983ceeb95b2f2181dd46de0f259",
+    "url": "/suzuki-kentaro/static/media/cristalUniverse_work_2.cff59983.jpg"
+  },
+  {
+    "revision": "48c9976d3136af4819b07c3dc80927d3",
+    "url": "/suzuki-kentaro/static/media/cristalUniverse_work_3.48c9976d.jpg"
+  },
+  {
     "revision": "ce01651c9a357c258344bc7e1b76278a",
     "url": "/suzuki-kentaro/static/media/cristalWorld.ce01651c.jpg"
+  },
+  {
+    "revision": "83f9193539bfd71bb00049d518656930",
+    "url": "/suzuki-kentaro/static/media/cristalWorld_work_1.83f91935.jpg"
+  },
+  {
+    "revision": "9702c067548ade31b138cd80e3e77681",
+    "url": "/suzuki-kentaro/static/media/cristalWorld_work_2.9702c067.jpg"
+  },
+  {
+    "revision": "522461906e2d027f5675b1ce808d4f65",
+    "url": "/suzuki-kentaro/static/media/cristalWorld_work_3.52246190.jpg"
   },
   {
     "revision": "2e83dc49054a056ff5ecb05d6a7b0a80",
