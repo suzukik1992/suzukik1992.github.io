@@ -4,7 +4,8 @@ import { myColor } from './style.js'
 
 const titleNameStyle = {
 
-    fontSize: "3vw",
+    fontSize: "4.5vw",
+    top: "0.75vw",
     fontFamily: 'MontserratBold, sans-serif',
     position: "absolute",
     paddingLeft: '1.5vw',
@@ -16,7 +17,8 @@ const titleNameStyle = {
 
 const aboutStyle = {
 
-    fontSize: "3vw",
+    fontSize: "4.5vw",
+    top: "0.75vw",
     fontFamily: 'Montserrat, sans-serif',
     position: "absolute",
     right: '1.5vw',

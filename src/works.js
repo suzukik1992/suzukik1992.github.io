@@ -31,7 +31,7 @@ const worksStyle = {
     gridTemplate: "repeat(7, 1fr) / repeat(3, 1fr)",
     backgroundColor: "black",
     position: 'relative',
-    top: '5vw'
+    top: '8vw'
 }
 
 export class Works extends React.Component {
