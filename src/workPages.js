@@ -10,6 +10,11 @@ const workPagesStyle = {
 
 export class WorkPages extends React.Component {
 
+    componentDidMount() {
+        window.scroll(0, 0);
+        console.log("scrolled");
+    }
+
     render(props) {
 
         let title = this.props.match.params.work;

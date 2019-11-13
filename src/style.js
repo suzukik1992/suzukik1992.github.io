@@ -17,6 +17,15 @@ export const workMainImgStyle = {
     margin: "auto"
 }
 
+export const workSubImgStyle = {
+    display: "block",
+    position: 'relative',
+    width: "90%",
+    objectFit: "cover",
+    margin: "auto",
+    zIndex: "1"
+}
+
 export const workTitleStyle = {
     display: "block",
     margin: "0",
@@ -44,7 +53,7 @@ export const workBiographyStyle = {
 
 export const workIntroductionStyle = {
     margin: "0",
-    width: "50%",
+    width: "70%",
     fontSize: "2.5vw",
     fontFamily: 'Montserrat, sans-serif',
     position: "relative",
@@ -84,4 +93,35 @@ export const workYoutubeWrapStyle = {
     margin: "auto",
     top: "10vw"
 
+}
+
+export const workBlockquoteStyle = {
+
+    borderLeft: `0.3vw solid ${myColor.whiteFade}`,
+    position: 'relative',
+    top: '5vw',
+    left: '3vw',
+    margin: '0',
+    padding: '0'
+}
+
+export const workQuoteStyle = {
+    margin: "0",
+    width: "75vw",
+    fontSize: "2vw",
+    fontFamily: 'Montserrat, sans-serif',
+    position: "relative",
+    textAlign: 'left',
+    left: '1vw',
+    color: myColor.whiteFade
+}
+
+export const workQuoteLinkStyle = {
+    fontSize: "2vw",
+    fontFamily: 'Montserrat, sans-serif',
+    position: "absolute",
+    textAlign: 'left',
+    left: '1vw',
+    color: myColor.whiteFade,
+    verticalAlign: "top"
 }
