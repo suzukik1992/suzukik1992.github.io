@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/suzuki-kentaro/static/css/main.1751e998.chunk.css",
-    "main.js": "/suzuki-kentaro/static/js/main.cd0e9679.chunk.js",
-    "main.js.map": "/suzuki-kentaro/static/js/main.cd0e9679.chunk.js.map",
+    "main.js": "/suzuki-kentaro/static/js/main.5b0e8a4d.chunk.js",
+    "main.js.map": "/suzuki-kentaro/static/js/main.5b0e8a4d.chunk.js.map",
     "runtime-main.js": "/suzuki-kentaro/static/js/runtime-main.bcd495fd.js",
     "runtime-main.js.map": "/suzuki-kentaro/static/js/runtime-main.bcd495fd.js.map",
-    "static/js/2.f69e1b94.chunk.js": "/suzuki-kentaro/static/js/2.f69e1b94.chunk.js",
-    "static/js/2.f69e1b94.chunk.js.map": "/suzuki-kentaro/static/js/2.f69e1b94.chunk.js.map",
+    "static/js/2.2d0f11f9.chunk.js": "/suzuki-kentaro/static/js/2.2d0f11f9.chunk.js",
+    "static/js/2.2d0f11f9.chunk.js.map": "/suzuki-kentaro/static/js/2.2d0f11f9.chunk.js.map",
     "index.html": "/suzuki-kentaro/index.html",
-    "precache-manifest.18e789086871f848ae3f7494179c75a2.js": "/suzuki-kentaro/precache-manifest.18e789086871f848ae3f7494179c75a2.js",
+    "precache-manifest.8f73b53ec377901bef5fc6fb03574f64.js": "/suzuki-kentaro/precache-manifest.8f73b53ec377901bef5fc6fb03574f64.js",
     "service-worker.js": "/suzuki-kentaro/service-worker.js",
     "static/css/main.1751e998.chunk.css.map": "/suzuki-kentaro/static/css/main.1751e998.chunk.css.map",
     "static/media/index.css": "/suzuki-kentaro/static/media/Montserrat-Thin.43dd5b7a.ttf",
@@ -41,6 +41,7 @@
     "static/media/memory_work_3.jpg": "/suzuki-kentaro/static/media/memory_work_3.e8613dfb.jpg",
     "static/media/monolith.jpg": "/suzuki-kentaro/static/media/monolith.253db0a8.jpg",
     "static/media/monsterHunterWorld.png": "/suzuki-kentaro/static/media/monsterHunterWorld.34deef02.png",
+    "static/media/monsterHunterWorld_work_main.png": "/suzuki-kentaro/static/media/monsterHunterWorld_work_main.efbdc018.png",
     "static/media/peace.jpg": "/suzuki-kentaro/static/media/peace.8238e475.jpg",
     "static/media/peace_work_1.jpg": "/suzuki-kentaro/static/media/peace_work_1.b3e028c9.jpg",
     "static/media/peace_work_2.jpg": "/suzuki-kentaro/static/media/peace_work_2.348cbfeb.jpg",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bcd495fd.js",
-    "static/js/2.f69e1b94.chunk.js",
+    "static/js/2.2d0f11f9.chunk.js",
     "static/css/main.1751e998.chunk.css",
-    "static/js/main.cd0e9679.chunk.js"
+    "static/js/main.5b0e8a4d.chunk.js"
   ]
 }

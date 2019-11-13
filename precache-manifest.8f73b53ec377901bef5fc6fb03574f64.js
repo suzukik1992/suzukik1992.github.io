@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "069b8a13c972105b1586ffdcbc8d33d6",
+    "revision": "e91a33ef72f8e16b199ebfc8502122c0",
     "url": "/suzuki-kentaro/index.html"
   },
   {
-    "revision": "b6fc43b13902f1d2901f",
+    "revision": "9b780707afc9c3a622bd",
     "url": "/suzuki-kentaro/static/css/main.1751e998.chunk.css"
   },
   {
-    "revision": "8511386aa31b33d94446",
-    "url": "/suzuki-kentaro/static/js/2.f69e1b94.chunk.js"
+    "revision": "684f5eaa85de830ea1eb",
+    "url": "/suzuki-kentaro/static/js/2.2d0f11f9.chunk.js"
   },
   {
-    "revision": "b6fc43b13902f1d2901f",
-    "url": "/suzuki-kentaro/static/js/main.cd0e9679.chunk.js"
+    "revision": "9b780707afc9c3a622bd",
+    "url": "/suzuki-kentaro/static/js/main.5b0e8a4d.chunk.js"
   },
   {
     "revision": "0a48a2e886b1d8260321",
@@ -146,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "34deef02398b226ef10a433ca43a5d5e",
     "url": "/suzuki-kentaro/static/media/monsterHunterWorld.34deef02.png"
+  },
+  {
+    "revision": "efbdc0180191fa70d957f5fe2240b7c5",
+    "url": "/suzuki-kentaro/static/media/monsterHunterWorld_work_main.efbdc018.png"
   },
   {
     "revision": "8238e475d003f281d475e23d597e0c66",
