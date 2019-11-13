@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { myColor } from './style.js'
 
 const titleNameStyle = {
@@ -10,6 +10,19 @@ const titleNameStyle = {
     paddingLeft: '1.5vw',
     paddingTop: '0.5vw',
     textAlign: 'left',
+    color: myColor.purple
+
+};
+
+const aboutStyle = {
+
+    fontSize: "3vw",
+    fontFamily: 'Montserrat, sans-serif',
+    position: "absolute",
+    right: '1.5vw',
+    paddingLeft: '1.5vw',
+    paddingTop: '0.5vw',
+    textAlign: 'right',
     color: myColor.purple
 
 };
@@ -34,9 +47,10 @@ export class Title extends React.Component {
     
     render() {
         return(
-            <Router>
-            <Route strict path="/" render={()=><div style={titleNameStyle}>suzuki kentaro</div>} />
-            </Router>
+            <div>
+                <Link to='/' style={{textDecoration: "none"}}><div style={titleNameStyle}>suzuki kentaro</div></Link>
+                <Link to='/about' style={{textDecoration: "none"}}><div style={aboutStyle}>about</div></Link>
+            </div>
         );
     }
 

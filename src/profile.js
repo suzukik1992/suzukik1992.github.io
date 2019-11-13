@@ -8,7 +8,9 @@ const profileStyle = {
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
     backgroundPosition: 'center top',
-    height: 'calc(100vw / 1.9)'
+    height: 'calc(100vw / 1.9)',
+    position: 'relative',
+    top: '5vw '
 };
 
 export class Profile extends React.Component {

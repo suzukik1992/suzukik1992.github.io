@@ -100,7 +100,7 @@ export const workBlockquoteStyle = {
     borderLeft: `0.3vw solid ${myColor.whiteFade}`,
     position: 'relative',
     top: '5vw',
-    left: '3vw',
+    left: '6vw',
     margin: '0',
     padding: '0'
 }
