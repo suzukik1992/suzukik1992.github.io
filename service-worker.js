@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/suzuki-kentaro/precache-manifest.317fad24a7f758aa1b52bf72b345558a.js"
+  "/suzuki-kentaro/precache-manifest.ad14688b2dd88e2430bcc0216fe3b20f.js"
 );
 
 self.addEventListener('message', (event) => {
