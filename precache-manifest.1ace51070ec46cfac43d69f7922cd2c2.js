@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d6beb1fd04d57f4cbc678eb3d14a397",
+    "revision": "7a6b2810d4042956d75626b954b4b72e",
     "url": "/suzuki-kentaro/index.html"
   },
   {
-    "revision": "fd7bc35e748df85104dc",
+    "revision": "90a9e68e2a378e6d4c10",
     "url": "/suzuki-kentaro/static/css/main.1751e998.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/suzuki-kentaro/static/js/2.476ddc5d.chunk.js"
   },
   {
-    "revision": "fd7bc35e748df85104dc",
-    "url": "/suzuki-kentaro/static/js/main.fa902480.chunk.js"
+    "revision": "90a9e68e2a378e6d4c10",
+    "url": "/suzuki-kentaro/static/js/main.a4406e22.chunk.js"
   },
   {
     "revision": "0a48a2e886b1d8260321",
