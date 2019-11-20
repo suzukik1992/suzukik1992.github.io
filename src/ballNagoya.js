@@ -16,8 +16,8 @@ import {
         myColor,
         workCommonFactor
     } from './style';
-import ballNagoyaImg from './media/ball_nagoya.jpg';
-import ballNagoyaWork1Img from './media/ball_nagoya_work_1.jpg';
+import ballNagoyaImg from './ball_nagoya.jpg';
+import ballNagoyaWork1Img from './ball_nagoya_work_1.jpg';
 
 export class BallNagoya extends React.Component {
 
