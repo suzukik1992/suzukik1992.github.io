@@ -16,7 +16,7 @@ import {
     maxWindowWidth,
     workCommonFactor
 } from '../style';
-import monsterHunterWorldImg from '../media/works/monsterHunterWorld_work_main.png';
+import monsterHunterWorldImg from '../media/works/monsterHunterWorld_work_main.jpg';
 
 export class MonsterHunterWorld extends React.Component {
 

@@ -16,7 +16,7 @@ import {
     maxWindowWidth,
     workCommonFactor
 } from '../style';
-import evessaImg from '../media/works/evessa.png';
+import evessaImg from '../media/works/evessa.jpg';
 
 export class Evessa extends React.Component {
 

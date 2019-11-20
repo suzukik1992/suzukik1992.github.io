@@ -16,7 +16,7 @@ import {
     maxWindowWidth,
     workCommonFactor
 } from '../style';
-import prosound_201906Img from '../media/works/prosound_201906_work_1.png';
+import prosound_201906Img from '../media/works/prosound_201906_work_1.jpg';
 
 export class Prosound_201906 extends React.Component {
 

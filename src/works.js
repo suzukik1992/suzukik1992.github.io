@@ -4,27 +4,27 @@ import { Work } from './work';
 import { maxWindowWidth } from './style.js'
 
 // image path
-import monsterHunterWorldImg from './media/works/monsterHunterWorld.png';
+import monsterHunterWorldImg from './media/works/monsterHunterWorld.jpg';
 import monolithImg from './media/works/monolith.jpg';
 import prosound_201906Img from './media/works/prosound_201906.jpg';
 import synesthesiaLabImg from './media/works/synesthesiaLab.jpg';
 import mangroveImg from './media/works/mangrove.jpg';
 import memoryImg from './media/works/memory.jpg';
-import kintowariImg from './media/works/kintowari.png';
-import loopSetImg from './media/works/loopSet.png';
+import kintowariImg from './media/works/kintowari.jpg';
+import loopSetImg from './media/works/loopSet.jpg';
 import floatingLampImg from './media/works/floatingLamp.jpg';
-import evessaImg from './media/works/evessa.png';
+import evessaImg from './media/works/evessa.jpg';
 import cristalWorldImg from './media/works/cristalWorld.jpg';
 import cristalUniverseImg from './media/works/cristalUniverse.jpg';
 import boulderingImg from './media/works/bouldering.jpg';
 import peaceImg from './media/works/peace.jpg';
 import worldImg from './media/works/world.jpg'
-import amcj_fes2018Img from './media/works/amcj_fes2018.png';
-import amcj_002Img from './media/works/amcj_002_works.png';
-import amcjImg from './media/works/amcj.png';
+import amcj_fes2018Img from './media/works/amcj_fes2018.jpg';
+import amcj_002Img from './media/works/amcj_002_works.jpg';
+import amcjImg from './media/works/amcj.jpg';
 import sourceCord_002Img from './media/works/sourceCord_002.jpg';
 import ballNagoyaImg from './media/works/ball_nagoya.jpg';
-import soundAndRecording_202001Img from './media/works/soundAndRecording_202001.png';
+import soundAndRecording_202001Img from './media/works/soundAndRecording_202001.jpg';
 
 const worksStyle = {
     width: "100%",

@@ -16,7 +16,7 @@ import {
     maxWindowWidth,
     workCommonFactor
 } from '../style';
-import synesthesiaLabImg from '../media/works/synesthesiaLab_work_1.png';
+import synesthesiaLabImg from '../media/works/synesthesiaLab_work_1.jpg';
 
 export class SynesthesiaLab extends React.Component {
 

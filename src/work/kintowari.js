@@ -16,7 +16,7 @@ import {
     maxWindowWidth,
     workCommonFactor
 } from '../style';
-import kintowariImg from '../media/works/kintowari.png';
+import kintowariImg from '../media/works/kintowari.jpg';
 import kintowariWork1Img from '../media/works/kintowari_work_1.jpg';
 
 export class Kintowari extends React.Component {

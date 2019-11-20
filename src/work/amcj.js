@@ -16,7 +16,7 @@ import {
     maxWindowWidth,
     workCommonFactor
 } from '../style';
-import amcjImg from '../media/works/amcj.png';
+import amcjImg from '../media/works/amcj.jpg';
 
 export class Amcj extends React.Component {
 
