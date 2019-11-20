@@ -15,11 +15,11 @@ import {
     myColor,
     maxWindowWidth,
     workCommonFactor
-} from '../style';
-import cristalWorldImg from '../media/works/cristalWorld.jpg';
-import cristalWorldWork1Img from '../media/works/cristalWorld_work_1.jpg';
-import cristalWorldWork2Img from '../media/works/cristalWorld_work_2.jpg';
-import cristalWorldWork3Img from '../media/works/cristalWorld_work_3.jpg';
+} from './style';
+import cristalWorldImg from './media/cristalWorld.jpg';
+import cristalWorldWork1Img from './media/cristalWorld_work_1.jpg';
+import cristalWorldWork2Img from './media/cristalWorld_work_2.jpg';
+import cristalWorldWork3Img from './media/cristalWorld_work_3.jpg';
 
 export class CristalWorld extends React.Component {
 

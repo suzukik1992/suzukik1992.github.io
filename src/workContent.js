@@ -1,26 +1,26 @@
 import React from 'react';
 
 // work pages component
-import { MonsterHunterWorld } from './work/monsterHunterWorld';
-import { Evessa } from './work/evessa';
-import { BallNagoya } from './work/ballNagoya';
-import { Memory } from './work/memory';
-import { Peace } from './work/peace';
-import { Bouldering } from './work/bouldering';
-import { CristalWorld } from './work/cristalWorld';
-import { CristalUniverse } from './work/cristalUniverse';
-import { Kintowari } from './work/kintowari';
-import { Amcj } from './work/amcj';
-import { Amcj_fes2018 } from './work/amcj_fes2018';
-import { SourceCord_002 } from './work/sourceCord_002';
-import { Mangrove } from './work/mangrove';
-import { Prosound_201906 } from './work/prosound_201906';
-import { FloatingLamp } from './work/floatingLamp';
-import { Amcj_002 } from './work/amcj_002';
-import { World } from './work/world';
-import { Monolith } from './work/monolith';
-// import { LoopSet } from './work/loopSet';
-import { SynesthesiaLab } from './work/synesthesiaLab';
+import { MonsterHunterWorld } from './monsterHunterWorld';
+import { Evessa } from './evessa';
+import { BallNagoya } from './ballNagoya';
+import { Memory } from './memory';
+import { Peace } from './peace';
+import { Bouldering } from './bouldering';
+import { CristalWorld } from './cristalWorld';
+import { CristalUniverse } from './cristalUniverse';
+import { Kintowari } from './kintowari';
+import { Amcj } from './amcj';
+import { Amcj_fes2018 } from './amcj_fes2018';
+import { SourceCord_002 } from './sourceCord_002';
+import { Mangrove } from './mangrove';
+import { Prosound_201906 } from './prosound_201906';
+import { FloatingLamp } from './floatingLamp';
+import { Amcj_002 } from './amcj_002';
+import { World } from './world';
+import { Monolith } from './monolith';
+// import { LoopSet } from './loopSet';
+import { SynesthesiaLab } from './synesthesiaLab';
 
 
 

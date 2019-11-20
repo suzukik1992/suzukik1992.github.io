@@ -15,17 +15,18 @@ import {
     myColor,
     maxWindowWidth,
     workCommonFactor
-} from '../style';
-import floatingLampImg from '../media/works/floatingLamp.jpg';
-import floatingLampWork1Img from '../media/works/floatingLamp_work_1.jpg';
-import floatingLampWork2Img from '../media/works/floatingLamp_work_2.jpg';
+} from './style';
+import mangroveImg from './media/mangrove.jpg';
+import mangroveWork1Img from './media/mangrove_work_1.jpg';
+import mangroveWork2Img from './media/mangrove_work_2.jpg';
+import mangroveWork3Img from './media/mangrove_work_3.jpg';
 
-export class FloatingLamp extends React.Component {
+export class Mangrove extends React.Component {
 
     render() {
 
         let windowWidth = this.props.windowWidth;
-        let titleFontSizeRate = 23;
+        let titleFontSizeRate = 19;
         let titleFontSize = 100/titleFontSizeRate + "vw";
 
         let bioFontSize = 100/workCommonFactor.bioFontSizeRate + "vw";
@@ -60,24 +61,23 @@ export class FloatingLamp extends React.Component {
 
         return(
             <div style={workMainDivStyle}>
-                <img src={floatingLampImg} style={workMainImgStyle}></img>
-                <p style={{...workTitleStyle, fontSize:titleFontSize}}>Floating Resonating Lamps - One Stroke, Fire</p>
-                <p style={{...workBiographyStyle, fontSize:bioFontSize, paddingBottom:bioPaddingBottom}}>2019/08, Sound Programer, MaxMsp</p>
-                <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}>Developed 4ch surrund system and interactive system.</p>
+                <img src={mangroveImg} style={workMainImgStyle}></img>
+                <p style={{...workTitleStyle, fontSize:titleFontSize}}>Continuous Life in a Beautiful World</p>
+                <p style={{...workBiographyStyle, fontSize:bioFontSize, paddingBottom:bioPaddingBottom}}>2019/04, Sound Programer / Sound Designer, MaxMsp</p>
+                <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}>Developed 32.2ch surrund system and interactive system. Also created sounds including several environmental se and developed a real-time multi-channel granular process to enhance the underwater immersion.</p>
                 <blockquote style={{...workBlockquoteStyle, borderLeft:quoteBorderLeft}}>
-                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>The lamps floating on the water’s surface are autonomous, shining brightly and then fading as if breathing.</p>
-                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>When a person pushes a lamp so it bobs in the water, or when a person stands still nearby, the lamp  shines brightly and emits a color that resonates out. The light of that lamp is transmitted to other lamps. In the same way, a bright tone color sounds and propagates continuously through the other lamps. The transmitted light always travels through each of the lamps only once, shining brightly, as it propagates through all of the lamps. People become aware of the presence of others in the same space.</p>
-                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>The light is transmitted in such a way that it travels from one lamp to the next nearest lamp, to the next nearest lamp. In other words, the light travels in a single stroke along the shortest route through all of the lamps only once.</p>
+                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>This artwork installation starts from a life-sized mangrove forest. After a while, visitors shrink to a microscopic size and an underwater world expands before them, becoming a world of plankton and microorganisms that is normally invisible to the naked eye.</p>
+                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>A continuous, living world is expressed through the abundant and beautiful mangrove forest ecosystem: the mangrove trees, the birds that live in the mangrove forest, the fish in the water, and the plankton and other microorganisms.</p>
+                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>The life of the mangrove forest changes interactively due to the presence of people. Each person has a color, and the creatures that pass close by are dyed that color.</p>
                     <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>The resonating lamps on the water’s surface change location moment by moment. Because the total distance covered by the propagating light is the shortest possible, even if the same lamp starts to shine, the path of light changes every moment.</p>
-                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>When the transmitted light meets with a light originating from a different starting point, the lamp where the two lights meet shines brightly for longer. People will surely feel the presence of others in the same space.</p>
-                    <p style={{...workQuoteStyle, fontSize:quoteFontSize}}>*The lamps are made of Murano glass (Venetian glass).</p>
-                    <a href="https://borderless.teamlab.art/shanghai/ew/whatloving-dark_shanghai/" style={{...workQuoteLinkStyle, fontSize:quoteFontSize}}>https://borderless.teamlab.art/shanghai/ew/whatloving-dark_shanghai/</a>
+                    <a href="https://www.teamlab.art/w/continuous_life_in_a_beautiful_world/" style={{...workQuoteLinkStyle, fontSize:quoteFontSize}}>https://www.teamlab.art/w/continuous_life_in_a_beautiful_world/</a>
                 </blockquote>
                 <div style={{...workYoutubeWrapStyle, top:youtubeTop}}>
-                    <iframe style={workYoutubeStyle} width="560" height="315" src="https://www.youtube.com/embed/1bsJxkzKfoI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe style={workYoutubeStyle} width="560" height="315" src="https://www.youtube.com/embed/DBCZLmzb6KE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
-                <img src={floatingLampWork1Img} style={{...workMainImgStyle, top:afterYoutubeImgTop}}></img>
-                <img src={floatingLampWork2Img} style={{...workMainImgStyle, top:afterYoutubeImg2Top}}></img>
+                <img src={mangroveWork1Img} style={{...workMainImgStyle, top:afterYoutubeImgTop}}></img>
+                <img src={mangroveWork2Img} style={{...workMainImgStyle, top:afterYoutubeImg2Top}}></img>
+                <img src={mangroveWork3Img} style={{...workMainImgStyle, top:afterYoutubeImg3Top}}></img>
             </div>
         );
     }

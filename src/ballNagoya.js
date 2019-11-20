@@ -15,9 +15,9 @@ import {
         maxWindowWidth,
         myColor,
         workCommonFactor
-    } from '../style';
-import ballNagoyaImg from '../media/works/ball_nagoya.jpg';
-import ballNagoyaWork1Img from '../media/works/ball_nagoya_work_1.jpg';
+    } from './style';
+import ballNagoyaImg from './media/ball_nagoya.jpg';
+import ballNagoyaWork1Img from './media/ball_nagoya_work_1.jpg';
 
 export class BallNagoya extends React.Component {
 

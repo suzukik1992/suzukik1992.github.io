@@ -1,30 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Work } from './work';
-import { maxWindowWidth } from './style.js'
 
 // image path
-import monsterHunterWorldImg from './media/works/monsterHunterWorld.jpg';
-import monolithImg from './media/works/monolith.jpg';
-import prosound_201906Img from './media/works/prosound_201906.jpg';
-import synesthesiaLabImg from './media/works/synesthesiaLab.jpg';
-import mangroveImg from './media/works/mangrove.jpg';
-import memoryImg from './media/works/memory.jpg';
-import kintowariImg from './media/works/kintowari.jpg';
-import loopSetImg from './media/works/loopSet.jpg';
-import floatingLampImg from './media/works/floatingLamp.jpg';
-import evessaImg from './media/works/evessa.jpg';
-import cristalWorldImg from './media/works/cristalWorld.jpg';
-import cristalUniverseImg from './media/works/cristalUniverse.jpg';
-import boulderingImg from './media/works/bouldering.jpg';
-import peaceImg from './media/works/peace.jpg';
-import worldImg from './media/works/world.jpg'
-import amcj_fes2018Img from './media/works/amcj_fes2018.jpg';
-import amcj_002Img from './media/works/amcj_002_works.jpg';
-import amcjImg from './media/works/amcj.jpg';
-import sourceCord_002Img from './media/works/sourceCord_002.jpg';
-import ballNagoyaImg from './media/works/ball_nagoya.jpg';
-import soundAndRecording_202001Img from './media/works/soundAndRecording_202001.jpg';
+import monsterHunterWorldImg from './media/monsterHunterWorld.jpg';
+import monolithImg from './media/monolith.jpg';
+import prosound_201906Img from './media/prosound_201906.jpg';
+import synesthesiaLabImg from './media/synesthesiaLab.jpg';
+import mangroveImg from './media/mangrove.jpg';
+import memoryImg from './media/memory.jpg';
+import kintowariImg from './media/kintowari.jpg';
+import loopSetImg from './media/loopSet.jpg';
+import floatingLampImg from './media/floatingLamp.jpg';
+import evessaImg from './media/evessa.jpg';
+import cristalWorldImg from './media/cristalWorld.jpg';
+import cristalUniverseImg from './media/cristalUniverse.jpg';
+import boulderingImg from './media/bouldering.jpg';
+import peaceImg from './media/peace.jpg';
+import worldImg from './media/world.jpg'
+import amcj_fes2018Img from './media/amcj_fes2018.jpg';
+import amcj_002Img from './media/amcj_002_works.jpg';
+import amcjImg from './media/amcj.jpg';
+import sourceCord_002Img from './media/sourceCord_002.jpg';
+import ballNagoyaImg from './media/ball_nagoya.jpg';
+import soundAndRecording_202001Img from './media/soundAndRecording_202001.jpg';
 
 const worksStyle = {
     width: "100%",
