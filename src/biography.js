@@ -1,25 +1,22 @@
 import React from 'react';
-import { myColor } from './style';
+import { myColor, maxWindowWidth } from './style';
 
 const biographyStyle = {
 
-    float: 'right',
     position: 'absolute',
-    top: "15vw",
-    right: "1vw",
-    width: "32vw",
+    right: '1%',
+    bottom: '-3%',
 
-};
+}
 
 const biographyTextStyle = {
 
-    fontSize: "3.5vw",
     fontFamily: 'Montserrat, sans-serif',
     textAlign: 'left',
-    lineHeight: '1.35',
+    lineHeight: '1.4',
     color: myColor.orange
 
-};
+}
 
 const biographyTextSpanStyle = {
     backgroundColor: myColor.backgroundWhite
@@ -27,9 +24,21 @@ const biographyTextSpanStyle = {
 
 export class Biography extends React.Component {
     render() {
+
+        let windowWidth = this.props.windowWidth;
+        let bioFontSize = 100/27 + "vw";
+        let bioWidth = "33.333vw";
+
+        // over maxWidth
+        if(windowWidth === maxWindowWidth) {
+            bioFontSize = windowWidth/27;
+            bioWidth = windowWidth/3;
+        } 
+
+
         return (
-            <div style={biographyStyle}>
-                <p style={biographyTextStyle}>
+            <div style={{...biographyStyle, width:bioWidth}}>
+                <p style={{...biographyTextStyle, fontSize:bioFontSize}}>
                     <span style={biographyTextSpanStyle}>Interested in sound design and the process, UI/UX, interactive systems, DSP, and synthesizers.</span>
                 </p>
             </div>

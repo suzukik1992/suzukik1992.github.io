@@ -1,13 +1,9 @@
 import React from 'react';
 
-const aStyle = {
-
-}
-
 const svgStyle = {
     position: 'absolute',
-    height: '5vw',
-    width: '5vw',
+    height: '6%',
+    width: '5%'
 }
 
 export class TwitterIcon extends React.Component {

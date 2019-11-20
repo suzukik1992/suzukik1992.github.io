@@ -1,15 +1,12 @@
 import React from 'react';
+import { maxWindowWidth } from './style.js'
 
 const divStyle = {
-    height: "33.333vw",
-    width: "33.333vw",
     position: 'relative'
 }
 
 const imgStyle = {
     transition: 'all 0.3s ease-out',
-    width: "100%",
-    height: "100%",
     objectFit: "cover"
 }
 
@@ -22,7 +19,6 @@ const titleStyle = {
     bottom: "50%",
     textAlign: "center",
     position: "relative",
-    fontSize: "1.75vw",
     fontFamily: 'Montserrat, sans-serif',
     color: "white"
 }
@@ -54,10 +50,22 @@ export class Work extends React.Component {
      }
 
     render() {
+        let windowWidth = this.props.windowWidth
+        let divWidth = "33.333vw";
+        let divHeight = divWidth;
+        let imgFontSize = '2vw';
+
+        // over maxWidth ios
+        if(windowWidth === maxWindowWidth) {
+            divWidth = windowWidth/3;
+            divHeight = divWidth;
+            imgFontSize = windowWidth/50;
+        }
+
         return(
-            <div style={divStyle} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                <img src={this.props.src} style={{...imgStyle, filter:this.state.img}} alt=""/>
-                <p style={{...titleStyle, opacity:this.state.opacity}}>{this.props.title}</p>
+            <div style={{...divStyle, width:divWidth, height:divHeight}} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+                <img src={this.props.src} style={{...imgStyle, filter:this.state.img, width:divWidth, height:divHeight}} alt=""/>
+                <p style={{...titleStyle, opacity:this.state.opacity, fontSize:imgFontSize}}>{this.props.title}</p>
             </div>
         );
     }

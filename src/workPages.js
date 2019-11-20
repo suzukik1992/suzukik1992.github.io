@@ -3,9 +3,14 @@ import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import { Title } from './title';
 import { WorkContent} from './workContent';
 
+
+const divWraper = {
+    width: "100%"
+  }
+
 const workPagesStyle = {
-    position: 'absolute',
-    top: '5.5vw'
+    width: "100%",
+    position: "relative"
 }
 
 export class WorkPages extends React.Component {
@@ -19,10 +24,10 @@ export class WorkPages extends React.Component {
 
         let title = this.props.match.params.work;
         return(
-            <div>
-                <Link to='' style={{textDecoration: "none"}}><Title /></Link>
+            <div style={divWraper}>
+                <Title windowWidth={this.props.windowWidth}/>
                 <div style={workPagesStyle}>
-                    <WorkContent workTitle={title } />
+                    <WorkContent workTitle={title} windowWidth={this.props.windowWidth}/>
                 </div>
             </div>
         );

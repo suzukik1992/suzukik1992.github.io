@@ -1,16 +1,11 @@
 import React from 'react';
-import { myColor } from './style.js';
+import { myColor, maxWindowWidth } from './style.js';
 import { TwitterIcon, YoutubeIcon, ShopIcon, MailIcon } from './svgLinkIcons';
 
 const ulStyle = {
 
-    position: "absolute",
-    right: "1.5vw",
-    top: '48vw',
-    width: '28vw',
-    height: '5vw',
-    padding: '0',
-    margin: '0',
+    paddingLeft: '26%',
+    margin: '0'
 
 }
 
@@ -18,7 +13,6 @@ const liStyle = {
 
     display: 'inline',
     height: '100%',
-    marginRight: '7vw',
     marginTop: '0',
     marginBottom: '0',
     padding: '0'
@@ -30,8 +24,6 @@ export class Link extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            width: "0",
-            height: "0",
             twitterColor: "white",
             youtubeColor: "white",
             shopColor: "white",
@@ -39,28 +31,6 @@ export class Link extends React.Component {
         }
         this.handleMouseEnter = this.handleMouseEnter.bind(this);
         this.handleMouseLeave = this.handleMouseLeave.bind(this);
-        this.updateDimentions = this.updateDimentions.bind(this);
-    }
-
-    updateDimentions() {
-        let windowWidth = window.innerWidth;
-        let windowHeight = window.innerHeight;
-        this.setState({
-            width: windowWidth,
-            height: windowHeight
-        })
-    }
-
-    componentWillMount() {
-        this.updateDimentions();
-    }
-
-    componentDidMount() {
-        window.onresize = this.updateDimentions;
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener("resize", this.updateDimentions);
     }
 
     handleMouseEnter(e) {
@@ -68,7 +38,6 @@ export class Link extends React.Component {
         this.setState({
            [targetID]: myColor.yellow
         })
-        //console.log("Enter:", targetID);
     }
 
     handleMouseLeave(e) {
@@ -85,30 +54,42 @@ export class Link extends React.Component {
                 [targetID]: myColor.white
             })
         }
-        //console.log("Leave:", targetID, e);
     }
 
     render() {
 
-        let svgRatio = scale(this.state.width, [0, 1000], [0, 1.85]);
+        let windowWidth = this.props.windowWidth;
+        let svgRatio = scale(windowWidth, [0, 1000], [0, 2.2]);
+        let liMarginRight = 100/7 + "vw";
+        let ulPosition = "2.5vw";
+        let ulHeight = "10vw";
+
+        // over maxWidth ios
+        if(windowWidth === maxWindowWidth) {
+            svgRatio = scale(maxWindowWidth, [0, 1000], [0, 2.2]);
+            liMarginRight = windowWidth/7;
+            ulPosition = windowWidth/40;
+            ulHeight = windowWidth/10;
+        }
+        svgRatio = Math.max(svgRatio, 0.65);
         let svgScaleFormat = `scale(${svgRatio}, ${svgRatio})`;
 
         return(
-            <ul style={ulStyle}>
+            <ul style={{...ulStyle, paddingTop:ulPosition, height:ulHeight}}>
 
-                <li style={liStyle}>
+                <li style={{...liStyle, marginRight:liMarginRight}}>
                     <TwitterIcon scale={svgScaleFormat} color={this.state.twitterColor} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}/>
                 </li>
 
-                <li style={liStyle}>
+                <li style={{...liStyle, marginRight:liMarginRight}}>
                     <YoutubeIcon scale={svgScaleFormat} color={this.state.youtubeColor} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}/>
                 </li>
 
-                <li style={liStyle}>
+                <li style={{...liStyle, marginRight:liMarginRight}}>
                     <ShopIcon scale={svgScaleFormat} color={this.state.shopColor} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}/>
                 </li>
 
-                <li style={liStyle}>
+                <li style={{...liStyle, marginRight:liMarginRight}}>
                      <MailIcon scale={svgScaleFormat} color={this.state.mailColor} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}/>
                 </li>
 

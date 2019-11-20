@@ -1,15 +1,18 @@
 import React from 'react';
 import { Title } from './title'; 
 import { Profile } from './profile';
-import { Works } from './works';
+
+const divWraper = {
+  width: "100%"
+}
 
 export class About extends React.Component {
 
     render() {
       return(
-        <div>
-          <Title />
-          <Profile />
+        <div style={divWraper}>
+          <Title windowWidth={this.props.windowWidth}/>
+          <Profile windowWidth={this.props.windowWidth}/>
         </div>
       );
     }
