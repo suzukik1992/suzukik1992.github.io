@@ -7,7 +7,7 @@ import { maxWindowWidth } from './style.js'
 import monsterHunterWorldImg from './media/works/monsterHunterWorld.png';
 import monolithImg from './media/works/monolith.jpg';
 import prosound_201906Img from './media/works/prosound_201906.jpg';
-import synesthesiaLabImg from './media/works/synesthesiaLab.png';
+import synesthesiaLabImg from './media/works/synesthesiaLab.jpg';
 import mangroveImg from './media/works/mangrove.jpg';
 import memoryImg from './media/works/memory.jpg';
 import kintowariImg from './media/works/kintowari.png';
