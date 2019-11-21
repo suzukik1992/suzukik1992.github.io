@@ -54,7 +54,7 @@ export class SourceCord_002 extends React.Component {
                 <img src={sourceCord_002Img} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:titleFontSize}}>Source Cord #002</p>
                 <p style={{...workBiographyStyle, fontSize:bioFontSize, paddingBottom:bioPaddingBottom}}>2018/12, Modular Synthsizer</p>
-                <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}>My modular system centered on O-COAST / Monome was exhibited as a modular SE.</p>
+                <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}>My modular was exhibited as a modular SE.</p>
                 <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}><a href="https://kagurane.com/schedules/view/852" style={workInlineLinkStyle}>Event Page</a></p>
             </div>
         );

@@ -56,7 +56,7 @@ export class Kintowari extends React.Component {
             <div style={workMainDivStyle}>
                 <img src={kintowariImg} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:titleFontSize}}>M4L Kinto-wari</p>
-                <p style={{...workBiographyStyle, fontSize:bioFontSize, paddingBottom:bioPaddingBottom}}>>2018/07, Sound Programer, Max for Live, Ableton Live</p>
+                <p style={{...workBiographyStyle, fontSize:bioFontSize, paddingBottom:bioPaddingBottom}}>2018/07, Sound Programer, Max for Live, Ableton Live</p>
                 <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}>This is a new sense sampler Max for Live device that can be used with Ableton Live. This is a project with <a href="https://twitter.com/KeiKusama" style={workInlineLinkStyle}>Kei Kusama</a>. Starting from <a href="https://camp-fire.jp/en/projects/view/39952" style={workInlineLinkStyle}>this crowdfunding</a>, we gathered 80 supporters. I was in charge of development of Max for Live.</p>
                 <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}><a href="https://gumroad.com/l/qGIsR" style={workInlineLinkStyle}>Web Store</a></p>
                 <div style={{...workYoutubeWrapStyle}}>

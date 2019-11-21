@@ -1,4 +1,6 @@
 
+
+
 export const maxWindowWidth = 1024;
 
 export const workCommonFactor = {
