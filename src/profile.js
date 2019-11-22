@@ -1,6 +1,6 @@
 import React from 'react';
 import { Biography } from './biography';
-import me from './media/me_2.jpg';
+import me from './media/me.jpg';
 import { Link } from './link';
 import { myColor, maxWindowWidth } from './style'
 
