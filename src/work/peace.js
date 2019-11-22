@@ -25,7 +25,7 @@ export class Peace extends React.Component {
     render() {
 
         let windowWidth = this.props.windowWidth;
-        let titleFontSizeRate = 23;
+        let titleFontSizeRate = 22;
         let titleFontSize = 100/titleFontSizeRate + "vw";
 
         let bioFontSize = 100/workCommonFactor.bioFontSizeRate + "vw";

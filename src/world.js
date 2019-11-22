@@ -25,7 +25,7 @@ export class World extends React.Component {
     render() {
 
         let windowWidth = this.props.windowWidth;
-        let titleFontSizeRate = 27.5;
+        let titleFontSizeRate = 28.5;
         let titleFontSize = 100/titleFontSizeRate + "vw";
 
         let bioFontSize = 100/workCommonFactor.bioFontSizeRate + "vw";
