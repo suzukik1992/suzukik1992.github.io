@@ -54,7 +54,7 @@ export class SoundAndRecording_202001 extends React.Component {
                 <img src={soundAndRecording_202001Img} style={workMainImgStyle}></img>
                 <p style={{...workTitleStyle, fontSize:titleFontSize}}>Sound & Recording Magazine 2020 01</p>
                 <p style={{...workBiographyStyle, fontSize:bioFontSize, paddingBottom:bioPaddingBottom}}>2019/11, Sound Programer, Sound Designer, MaxMsp</p>
-                <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}>I contributed the Trial version of my Particle-Reverb to the "Self-made patch made with Max" series of Sound & Recording Magazine. It is a reverb that uses granular. See the link below for details.</p>
+                <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}>I contributed the trial version of my Particle-Reverb to the "Self-made patch made with Max" series of Sound & Recording Magazine. It is a reverb that uses granular. See the link below for details.</p>
                 <p style={{...workIntroductionStyle, fontSize:introFontSize, paddingBottom:introPaddingBottom}}><a href="https://rittor-music.jp/sound/magazine/max/2001" style={workInlineLinkStyle}>Official Website</a></p>
                 <div style={{...workYoutubeWrapStyle}}>
                     <iframe style={workYoutubeStyle} width="560" height="315" src="https://www.youtube.com/embed/rJdOOT2ofGU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
