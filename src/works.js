@@ -39,7 +39,7 @@ export class Works extends React.Component {
         let windowWidth = this.props.windowWidth;
         return(
             <div style={{...worksStyle}}>
-                <Work id="s&r_202001" title="Coming soon..." src={soundAndRecording_202001Img} windowWidth={this.props.windowWidth}/>
+                <Link to='/works/soundAndRecording_202001' style={{textDecoration: "none"}}><Work id="soundAndRecording_202001" title="Sound & Recording Magazine 2020 01" src={soundAndRecording_202001Img} windowWidth={this.props.windowWidth}/></Link>
                 <Work id="loopSet" title="Coming soon..." src={loopSetImg} windowWidth={this.props.windowWidth}/>
                 <Link to='/works/monolith' style={{textDecoration: "none"}}><Work id="monolith" title="Moving Creates Vortices and Vortices Create Movement" src={monolithImg} windowWidth={windowWidth}/></Link>
                 <Link to='/works/world' style={{textDecoration: "none"}}><Work id="world" title="Born From the Darkness a Loving, and Beautiful World" src={worldImg} windowWidth={windowWidth}/></Link>

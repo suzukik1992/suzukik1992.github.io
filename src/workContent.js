@@ -21,6 +21,7 @@ import { World } from './world';
 import { Monolith } from './monolith';
 // import { LoopSet } from './loopSet';
 import { SynesthesiaLab } from './synesthesiaLab';
+import { SoundAndRecording_202001 } from './soundAndRecording_202001';
 
 
 
@@ -150,6 +151,12 @@ export class WorkContent extends React.Component {
             //             <LoopSet windowWidth={this.props.windowWidth}/>
             //         );
             //     break;
+
+            case "soundAndRecording_202001":
+                    return(
+                        <SoundAndRecording_202001 windowWidth={this.props.windowWidth}/>
+                    );
+                break;
                                                                                                                                                                         
         }
     }
